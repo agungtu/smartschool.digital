@@ -4168,8 +4168,8 @@ li.parsley-required,
 }
 
 .purchase-btn::before {
-  background: #6a11cb;
-  background: rgb(239, 90, 38);
+  /* background: #6a11cb; */
+  /* background: rgb(239, 90, 38); */
 }
 
 .personal-price-package .purchase-btn {

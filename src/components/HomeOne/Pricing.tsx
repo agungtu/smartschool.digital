@@ -110,10 +110,16 @@ const Pricing: React.FC = () => {
                 Informasi produk dan harga lebih detail
               </h4>
               <center>
-                <div className="price-footer col-sm-3 text-center">
-                  <Link href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0" target="_blank" className="purchase-btn" style={{ backgroundColor: "#006677", color : "white" }}>
-                    Hubungi Kami
-                  </Link>
+                <div className=" col-sm-3 text-center">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0"
+                  className="purchase-btn"
+                  target="_blank"
+                  style={{ backgroundColor: "#006677", color : "white" }}
+                >
+                    
+                    <span className="large-text text-white" >Hubungi Kami</span>
+                </a>
                 </div>
               </center>
             </div>

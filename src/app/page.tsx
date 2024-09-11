@@ -12,7 +12,7 @@ import Team from "../components/HomeOne/Team";
 import AppDownload from "../components/HomeOne/AppDownload";
 import Blog from "../components/HomeOne/Blog";
 import ContactForm from "../components/Common/ContactForm";
-import Footer from "../components/Common/Footer";
+// import Footer from "../components/Common/Footer";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* <About /> */}
 
-      <Screenshots />
+      <Pricing />
 
       <HowItWorks />
 
@@ -33,7 +33,8 @@ export default function Home() {
 
       {/* <Testimonial /> */}
 
-      <Pricing />
+      <Screenshots />
+
 
       {/* <Faq /> */}
 
@@ -45,7 +46,7 @@ export default function Home() {
 
       {/* <ContactForm /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

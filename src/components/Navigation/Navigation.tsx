@@ -62,12 +62,16 @@ const Navigation: React.FC = () => {
                   Home
                 </Link>
               </li>
-
               <li className="nav-item">
-                <Link onClick={toggleNavbar} className="nav-link" href="#problem">
-                  Problem
+                <Link
+                  onClick={toggleNavbar}
+                  className="nav-link"
+                  href="#pricing"
+                >
+                  Pricing
                 </Link>
               </li>
+              
 
               <li className="nav-item">
                 <Link
@@ -89,13 +93,10 @@ const Navigation: React.FC = () => {
                 </Link>
               </li>
 
+              
               <li className="nav-item">
-                <Link
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                  href="#pricing"
-                >
-                  Pricing
+                <Link onClick={toggleNavbar} className="nav-link" href="#problem">
+                  Problem
                 </Link>
               </li>
 

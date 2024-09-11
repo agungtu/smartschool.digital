@@ -37,6 +37,7 @@ const Slider: React.FC = () => {
               >
                 <div className="slide-item-table">
                   <div className="slide-item-tablecell">
+                    <div className="wave-bg-section-tb-two"></div>
                     <div className="container">
                       <div className="row align-items-center">
                         <div className="col-md-12">
